@@ -1,0 +1,50 @@
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: left;
+
+}
+
+.container_title {
+    text-align: center;
+}
+
+.input_container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.input_container label {
+    display: block;
+}
+
+.input_container .input {
+    width: 220px;
+    border: 1px solid #cbcbcb;
+}
+
+.input_container .input-error {
+    color: red;
+    margin: 0px;
+}
+
+.button {
+    background-color: yellow;
+    color: black;
+    border-radius: 6px;
+    padding: 5px;
+}
